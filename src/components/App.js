@@ -40,7 +40,7 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        {this.cityList.map((pavan)=>{<ol key="location"><li>pavan.name</li></ol>})}
+        {this.cityList.map((pavan)=>{<ol key="location"><li>pavan.country</li></ol>})}
       </div>
     )
   }
